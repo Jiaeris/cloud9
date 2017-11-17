@@ -1,12 +1,12 @@
 package mlog
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
+	"io"
+	"log"
 	"os"
 	"time"
-	"io"
-	"fmt"
-	"log"
 )
 
 func init() {
@@ -48,4 +48,5 @@ func createLogFile() {
 			}
 		}
 	}()
+
 }

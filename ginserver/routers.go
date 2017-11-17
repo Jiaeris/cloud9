@@ -1,8 +1,8 @@
 package ginserver
 
 import (
-	"github.com/gin-gonic/gin"
 	"cloud9/handler"
+	"github.com/gin-gonic/gin"
 )
 
 func Start() {
@@ -19,7 +19,7 @@ func Start() {
 		{
 			accountGroup.POST("/logout", handler.Logout)
 			accountGroup.GET("/detail", handler.Detail)
-			accountGroup.POST("/detail/update",handler.DetailUpdate)
+			accountGroup.POST("/detail/update", handler.DetailUpdate)
 
 		}
 	}

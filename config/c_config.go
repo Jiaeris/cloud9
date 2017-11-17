@@ -1,9 +1,9 @@
 package config
 
 import (
-	"os"
-	"io/ioutil"
 	"encoding/json"
+	"io/ioutil"
+	"os"
 )
 
 var (

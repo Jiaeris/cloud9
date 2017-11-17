@@ -1,8 +1,8 @@
 package leetcode
 
 import (
-	"sort"
 	"fmt"
+	"sort"
 	"strings"
 )
 
@@ -16,7 +16,7 @@ func hammingDistance(x int, y int) int {
 	a := x ^ y
 	count := 0
 	for i := 0; i < 32; i++ {
-		count += ( a >> uint(i)) & 0x01
+		count += (a >> uint(i)) & 0x01
 	}
 	return count
 }

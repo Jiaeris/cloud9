@@ -1,9 +1,9 @@
 package models
 
 import (
+	"cloud9/msg"
 	"cloud9/utils"
 	"time"
-	"cloud9/msg"
 )
 
 var (

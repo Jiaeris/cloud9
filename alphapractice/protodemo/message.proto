@@ -1,0 +1,15 @@
+syntax = "proto3";
+package proto;
+
+message Person {
+    string name = 1;
+    Sex sex = 2; //性别 0 1男 2女
+    string idNum = 3;
+    string bio = 4;
+}
+
+enum Sex {
+    MAN = 0;
+    WOMAN = 1;
+    SCREATE = 2;
+}

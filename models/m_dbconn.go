@@ -1,10 +1,10 @@
 package models
 
 import (
-	_"github.com/go-sql-driver/mysql"
+	"cloud9/config"
 	"database/sql"
 	"fmt"
-	"cloud9/config"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 var Cloud10Db *sql.DB = nil

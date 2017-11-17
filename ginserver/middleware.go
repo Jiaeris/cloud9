@@ -1,11 +1,11 @@
 package ginserver
 
 import (
-	"errors"
-	"time"
-	"github.com/gin-gonic/gin"
-	"github.com/dgrijalva/jwt-go"
 	"cloud9/config"
+	"errors"
+	"github.com/dgrijalva/jwt-go"
+	"github.com/gin-gonic/gin"
+	"time"
 	//"net/http"
 )
 
@@ -28,5 +28,4 @@ func loginMiddle() gin.HandlerFunc {
 			c.Set("name", tokenObj.Claims.(jwt.MapClaims)["token_owner"])
 		}
 	}
-
 }

@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/gin-gonic/gin"
 	"cloud9/msg"
+	"github.com/gin-gonic/gin"
 )
 
 func ServerPing(c *gin.Context) {

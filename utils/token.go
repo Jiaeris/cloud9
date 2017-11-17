@@ -1,9 +1,9 @@
 package utils
 
 import (
-	"time"
 	"cloud9/config"
 	"github.com/dgrijalva/jwt-go"
+	"time"
 )
 
 func TokenCreate(account string) (string, error) {

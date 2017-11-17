@@ -1,8 +1,8 @@
 package leetcode
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 func Test_MyTest(t *testing.T) {
