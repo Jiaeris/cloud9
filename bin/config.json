@@ -1,0 +1,9 @@
+{
+  "db": {
+    "user": "root",
+    "password": "root",
+    "address": "localhost",
+    "port": 3306,
+    "dbname": "cloud10"
+  }
+}
